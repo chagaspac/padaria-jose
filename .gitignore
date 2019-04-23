@@ -1,0 +1,5 @@
+.vs/
+*.class
+*.dll
+**/bin/
+**/obj/
