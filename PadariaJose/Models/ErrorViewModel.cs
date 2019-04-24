@@ -2,10 +2,13 @@ using System;
 
 namespace PadariaJose.Models
 {
-    public class ErrorViewModel
+    public class UsuarioViewModel
     {
-        public string RequestId { get; set; }
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+        public string Telefone { get; set; }
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
