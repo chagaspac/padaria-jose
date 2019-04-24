@@ -4,11 +4,12 @@ namespace PadariaJose.Models
 {
     public class UsuarioViewModel
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Senha { get; set; }
-        public string Telefone { get; set; }
+        public Guid Id { get; set; }
+        public string Name { get; private set; }
+        public string Mail { get; set; }
+        public string Password { get; set; }
+        public string Phone { get; set; }
+        public string BirthDate { get; set; }
 
     }
 }

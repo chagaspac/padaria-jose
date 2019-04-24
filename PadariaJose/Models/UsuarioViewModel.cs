@@ -4,8 +4,8 @@ namespace PadariaJose.Models
 {
     public class ErrorViewModel
     {
-        public string RequestId { get; set; }
+        public int RequestId { get; set; }
+        public int RequestId2 { get; set; }
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
